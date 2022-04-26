@@ -4,4 +4,9 @@ public class Message {
     Message myObj = new Message();
     System.out.println(myObj.x);
   }
+  
+  public void anotherMessage(String[] args) {
+    Message myObject = new Message();
+    System.out.println(myObject.x);
+  }
 }
